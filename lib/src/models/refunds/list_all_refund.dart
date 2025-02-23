@@ -62,7 +62,7 @@ class ListAllRefundResponse extends Equatable {
   }
   factory ListAllRefundResponse.fromJson(String source) =>
       ListAllRefundResponse.fromMap(
-          json.decode(source) as Map<String, dynamic>);
+          json.decode(source) as Map<String, dynamic>,);
 
   final bool hasMore;
   final List<RefundResponseAttributes> data;

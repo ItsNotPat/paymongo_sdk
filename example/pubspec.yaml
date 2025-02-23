@@ -32,6 +32,7 @@ dependencies:
     path: ../
   webview_flutter: ^4.8.0
   webview_flutter_web: ^0.2.2+4
+  webview_flutter_wkwebview: any
 dev_dependencies:
   flutter_test:
     sdk: flutter

@@ -12,7 +12,7 @@ class SourceAttributes extends Equatable {
       required this.redirect,
       required this.billing,
       this.currency = 'PHP',
-      this.metadata});
+      this.metadata,});
 
   ///
   factory SourceAttributes.fromMap(Map<String, dynamic> map) {
